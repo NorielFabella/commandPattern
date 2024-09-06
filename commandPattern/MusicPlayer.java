@@ -1,16 +1,17 @@
 package commandPattern;
 
-public class Tv implements Device{
-
+public class MusicPlayer implements Device
+{
     
-
-    public String turnOff(){
-        return "Tv is switched-off";
-    }
 
     @Override
     public String turnOn() {
-        return "Tv is switched-on";
+        return "Music Player is switched-on and will play a specific playlist";
+    }
+
+    @Override
+    public String turnOff() {
+        return "Music Player is switched-off";
     }
 
     @Override
@@ -25,21 +26,21 @@ public class Tv implements Device{
 
     @Override
     public String increaseVolume() {
-        return "TV's volume increased";
+        return "Volume increased";
     }
 
     @Override
     public String decreaseVolume() {
-        return "TV's volume decreased";
+        return "Volume decreased";
     }
 
     @Override
     public String increaseBrightness() {
-        return "TV's brightness increased";
+        return "Nothing happened";
     }
 
     @Override
     public String decreaseBrightness() {
-        return "TV's brightness decreased";
+        return "Nothing happened";
     }
 }
