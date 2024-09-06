@@ -13,4 +13,4 @@ Your challenge is to apply a design pattern that provides a flexible and scalabl
 
 UML Class Diagram
 
-![UML Class Diagram](commandPattern/commandPattern Class Diagram - Color.png)
+![Alt text](commandPattern Class Diagram - Color.png)
